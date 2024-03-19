@@ -77,6 +77,7 @@ button {
     margin-top: 100px;
     margin-bottom: 40px;
     transition: transform 2s;
+    animation: from_left 2s;
 }
 .head:hover {
     transform: skew(20deg, 10deg);
@@ -90,6 +91,15 @@ button {
     height: 300px;
     text-align: center;
     margin-top: 50px;
+}
+.card-1 {
+    animation: from_left 4s;
+}
+.card-2 {
+    animation: from_top 6s;
+}
+.card-3 {
+    animation: from_right 8s;
 }
 .card img {
     transition: transform 2s;
@@ -146,4 +156,38 @@ input {
 }
 .footer-text {
     padding-top: 75px;
+}
+@keyframes from_left {
+    0% {
+        transform: translateY(-1500px) translateX(-1500px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) translateX(0);
+        transition: all 200ms ease;
+        opacity: 1;
+    }
+}
+@keyframes from_top {
+    0% {
+        transform: translateY(-1500px) translateX(0px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) translateX(0);
+        transition: all 200ms ease;
+        opacity: 1;
+    }
+}
+
+@keyframes from_right {
+    0% {
+        transform: translateY(-1500px) translateX(1500px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) translateX(0);
+        transition: all 200ms ease;
+        opacity: 1;
+    }
 }
