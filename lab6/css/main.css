@@ -17,6 +17,7 @@ body {
 .left-side-text {
     width: 500px;
     color: #fff;
+    text-align: justify;
 }
 .header-logo {
     margin-bottom: 20px;
@@ -180,7 +181,7 @@ input {
         border: 2px solid #ccc;
         padding: 10px 20px;
         margin: 10px 0 10px 0;
-        width: 400px;
+        width: 70%;
     }
     .form-button {
         width: 444px;
@@ -260,12 +261,13 @@ input {
     input {
         padding: 10px 20px;
         margin: 10px 0 10px 0;
-        width: 300px;
+        width: 60%;
     }
     .form-button {
         width: 344px;
         margin-top: 10px;
         margin-bottom: 80px;
+        width: 71%;
     }
     .footer {
         height: 100px;
@@ -337,11 +339,12 @@ input {
     input {
         padding: 10px 20px;
         margin: 10px 0 10px 0;
-        width: 300px;
+        width: 50%;
     }
     .form-button {
         width: 344px;
         margin-top: 10px;
         margin-bottom: 40px;
+        width: 61%;
     }
 }
