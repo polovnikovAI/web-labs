@@ -9,8 +9,6 @@ body {
     margin: 0 auto;
     background: rgb(0, 133, 198);
     background: linear-gradient(0deg, rgba(0, 133, 198, 1) 0%, rgba(114, 215, 244, 1) 100%);
-    animation: colored ease 3s;
-    animation-delay: 0.5s;
 }
 .container-header {
     padding: 50px;
